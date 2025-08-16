@@ -1,18 +1,21 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Flashcards from './pages/Flashcards'
-import Quiz from './pages/Quiz'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Flashcards from "./pages/Flashcards";
+import Quiz from "./pages/Quiz";
+import About from "./pages/About";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/flashcards" element={<Flashcards />} />
-        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/flashcards/:subject" element={<Flashcards />} />
+        <Route path="/quiz/:subject" element={<Quiz />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
