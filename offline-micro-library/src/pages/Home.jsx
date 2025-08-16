@@ -34,13 +34,6 @@ export default function Home() {
           </div>
         ))}
       </div>
-
-      <Link
-        to="/about"
-        className="mt-10 text-white underline font-semibold hover:text-yellow-300 transition"
-      >
-        About the Project
-      </Link>
     </div>
   );
 }
