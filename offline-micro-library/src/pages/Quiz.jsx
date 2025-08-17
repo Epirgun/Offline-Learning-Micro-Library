@@ -9,6 +9,7 @@ export default function Quiz() {
   const [score, setScore] = useState(0);
   const [selected, setSelected] = useState(null);
   const [showNext, setShowNext] = useState(false);
+  const [quizFinished, setQuizFinished] = useState(false); // new state
 
   if (questions.length === 0) return <div>No questions for this subject.</div>;
 
@@ -23,8 +24,38 @@ export default function Quiz() {
   const handleNext = () => {
     setSelected(null);
     setShowNext(false);
-    setCurrent((prev) => (prev + 1) % questions.length);
+    if (current + 1 < questions.length) {
+      setCurrent((prev) => prev + 1);
+    } else {
+      setQuizFinished(true); // finish quiz after last question
+    }
   };
+
+  // Show quiz finished screen
+  if (quizFinished) {
+    return (
+      <div className="min-h-screen bg-gradient-to-r from-yellow-300 to-orange-400 flex flex-col items-center justify-center p-6">
+        <Link
+          to="/"
+          className="mb-8 bg-white text-orange-700 font-bold py-2 px-6 rounded-lg hover:bg-gray-100 transition transform hover:scale-105"
+        >
+          Back to Home
+        </Link>
+        <div className="bg-white rounded-2xl shadow-xl p-6 w-80 text-center">
+          <h2 className="text-2xl font-bold mb-4 text-orange-600">
+            🎉 Quiz Completed!
+          </h2>
+          <p className="text-lg mb-2">You answered {score} / {questions.length} correctly.</p>
+          <Link
+            to="/"
+            className="mt-4 inline-block bg-purple-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-purple-600 transition transform hover:scale-105"
+          >
+            Return Home
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-yellow-300 to-orange-400 flex flex-col items-center justify-center p-6">
@@ -37,6 +68,11 @@ export default function Quiz() {
       </Link>
 
       <div className="bg-white rounded-2xl shadow-xl p-6 w-80 text-center">
+        {/* New: Question counter */}
+        <p className="mb-2 text-lg font-semibold text-orange-600">
+          Question {current + 1} / {questions.length}
+        </p>
+
         <h2 className="text-2xl font-bold mb-4">{question.question}</h2>
         <div className="flex flex-col gap-3">
           {question.options.map((option, idx) => (
@@ -66,8 +102,9 @@ export default function Quiz() {
           </button>
         )}
 
+        {/* New: Correct answer counter */}
         <p className="mt-4 text-lg font-semibold">
-          Score: {score} / {questions.length}
+          Correct Answers: {score} / {questions.length}
         </p>
       </div>
     </div>

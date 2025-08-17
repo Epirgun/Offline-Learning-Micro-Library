@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Calendar from "../components/Calendar"; 
 
 export default function Home() {
   const subjects = ["Math", "Science", "Vocabulary"];
@@ -34,6 +35,17 @@ export default function Home() {
           </div>
         ))}
       </div>
+<div className="mt-6 flex justify-center">
+  <Link
+    to="/offline-homework-help"
+    className="bg-indigo-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-600 transition transform hover:scale-105"
+  >
+    📝 Homework Help (Offline)
+  </Link>
+</div>
+      <Calendar />
+
     </div>
+    
   );
 }
