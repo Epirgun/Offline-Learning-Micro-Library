@@ -5,6 +5,11 @@ const Calendar = () => {
   const [events, setEvents] = useState([]);
   const [newEvent, setNewEvent] = useState({ date: "", title: "" });
 
+  // Month navigation
+  const today = new Date();
+  const [currentMonth, setCurrentMonth] = useState(today.getMonth());
+  const [currentYear, setCurrentYear] = useState(today.getFullYear());
+
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("studyEvents")) || [];
     setEvents(saved);
@@ -20,15 +25,36 @@ const Calendar = () => {
     setNewEvent({ date: "", title: "" });
   };
 
+  // Month navigation functions
+  const handlePrevMonth = () => {
+    if (currentMonth === 0) {
+      setCurrentMonth(11);
+      setCurrentYear(prev => prev - 1);
+    } else {
+      setCurrentMonth(prev => prev - 1);
+    }
+  };
+
+  const handleNextMonth = () => {
+    if (currentMonth === 11) {
+      setCurrentMonth(0);
+      setCurrentYear(prev => prev + 1);
+    } else {
+      setCurrentMonth(prev => prev + 1);
+    }
+  };
+
+  const monthNames = [
+    "January","February","March","April","May","June",
+    "July","August","September","October","November","December"
+  ];
+
   // Get a list of unique dates with events
   const eventDates = events.map((e) => e.date);
 
   // Build simple month view
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = today.getMonth();
-  const firstDay = new Date(year, month, 1).getDay();
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const firstDay = new Date(currentYear, currentMonth, 1).getDay();
+  const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
   const calendarDays = [];
   for (let i = 0; i < firstDay; i++) calendarDays.push(null);
@@ -62,6 +88,25 @@ const Calendar = () => {
         </button>
       </div>
 
+      {/* Month navigation */}
+      <div className="flex justify-between items-center mb-3">
+        <button
+          onClick={handlePrevMonth}
+          className="bg-gray-200 px-3 py-1 rounded hover:bg-gray-300 transition"
+        >
+          ◀
+        </button>
+        <h3 className="text-lg font-bold text-orange-600">
+          {monthNames[currentMonth]} {currentYear}
+        </h3>
+        <button
+          onClick={handleNextMonth}
+          className="bg-gray-200 px-3 py-1 rounded hover:bg-gray-300 transition"
+        >
+          ▶
+        </button>
+      </div>
+
       {/* Month calendar */}
       <div className="grid grid-cols-7 gap-1 text-center mb-4">
         {["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].map((d) => (
@@ -69,7 +114,7 @@ const Calendar = () => {
         ))}
         {calendarDays.map((day, idx) => {
           if (!day) return <div key={idx}></div>;
-          const dayStr = `${year}-${String(month + 1).padStart(2,"0")}-${String(day).padStart(2,"0")}`;
+          const dayStr = `${currentYear}-${String(currentMonth + 1).padStart(2,"0")}-${String(day).padStart(2,"0")}`;
           const hasEvent = eventDates.includes(dayStr);
           return (
             <div

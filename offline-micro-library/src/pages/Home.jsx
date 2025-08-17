@@ -8,6 +8,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-purple-400 to-pink-400 flex flex-col items-center justify-center p-6">
       <h1 className="text-4xl font-bold text-white mb-10 animate-pulse">
+
+        
+           
         Offline Micro Library
       </h1>
 

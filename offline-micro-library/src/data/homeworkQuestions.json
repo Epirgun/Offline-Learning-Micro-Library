@@ -1,0 +1,590 @@
+[
+  {
+    "question": "What is photosynthesis?",
+    "answer": "Photosynthesis is the process by which green plants use sunlight to synthesize food from carbon dioxide and water."
+  },
+  {
+    "question": "Define Newton's first law.",
+    "answer": "Newton's first law states that an object will remain at rest or in uniform motion unless acted upon by an external force."
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "The capital of France is Paris."
+  },
+  {
+    "question": "What is the Pythagorean theorem?",
+    "answer": "The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides."
+  },
+  {
+    "question": "What is the derivative of x^2?",
+    "answer": "The derivative of x^2 is 2x."
+  },
+  {
+    "question": "What does 'benevolent' mean?",
+    "answer": "Benevolent means well-meaning and kindly."
+  },
+  {
+    "question": "Solve for x: 2x + 5 = 15",
+    "answer": "The solution is x = 5."
+  },
+  {
+    "question": "Explain Ohm's law.",
+    "answer": "Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points."
+  },
+  {
+    "question": "What is an antonym of 'happy'?",
+    "answer": "An antonym of 'happy' is 'sad'."
+  },
+  {
+    "question": "How do you calculate the area of a circle?",
+    "answer": "The area of a circle is calculated using the formula πr², where r is the radius."
+  },
+  {
+    "question": "Define evaporation.",
+    "answer": "Evaporation is the process by which a liquid turns into a vapor below its boiling point."
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answer": "William Shakespeare wrote 'Romeo and Juliet'."
+  },
+  {
+    "question": "What is the square root of 64?",
+    "answer": "The square root of 64 is 8."
+  },
+  {
+    "question": "Explain the water cycle.",
+    "answer": "The water cycle describes how water evaporates from the Earth's surface, rises into the atmosphere, cools and condenses into rain or snow, and falls again to the surface."
+  },
+  {
+    "question": "What is the meaning of 'ephemeral'?",
+    "answer": "Ephemeral means lasting for a very short time."
+  },
+  {
+    "question": "When did World War II end?",
+    "answer": "World War II ended in 1945."
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "The chemical symbol for gold is Au."
+  },
+  {
+    "question": "Solve 3x - 7 = 20",
+    "answer": "The solution is x = 9."
+  },
+  {
+    "question": "Name three types of rocks.",
+    "answer": "The three types of rocks are igneous, sedimentary, and metamorphic."
+  },
+  {
+    "question": "What is a synonym for 'quick'?",
+    "answer": "A synonym for 'quick' is 'fast'."
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci painted the Mona Lisa."
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter is the largest planet in our solar system."
+  },
+  {
+    "question": "Convert 100°F to Celsius.",
+    "answer": "100°F is approximately 37.8°C."
+  },
+  {
+    "question": "Define gravity.",
+    "answer": "Gravity is the force that attracts a body toward the center of the Earth, or toward any other physical body having mass."
+  },
+  {
+    "question": "What is the past tense of 'run'?",
+    "answer": "The past tense of 'run' is 'ran'."
+  },
+  {
+    "question": "Who was the first president of the United States?",
+    "answer": "George Washington was the first president of the United States."
+  },
+  {
+    "question": "What is 15% of 200?",
+    "answer": "15% of 200 is 30."
+  },
+  {
+    "question": "Explain the difference between weather and climate.",
+    "answer": "Weather refers to short-term atmospheric conditions, while climate is the average weather over a long period of time in a specific area."
+  },
+  {
+    "question": "What is the plural of 'child'?",
+    "answer": "The plural of 'child' is 'children'."
+  },
+  {
+    "question": "Name the seven continents.",
+    "answer": "The seven continents are Africa, Antarctica, Asia, Europe, North America, Australia (Oceania), and South America."
+  },
+  {
+    "question": "What is the formula for density?",
+    "answer": "Density is calculated as mass divided by volume (D = m/V)."
+  },
+  {
+    "question": "Factor x^2 - 9",
+    "answer": "x^2 - 9 factors to (x + 3)(x - 3)."
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming discovered penicillin."
+  },
+  {
+    "question": "What is the opposite of 'import'?",
+    "answer": "The opposite of 'import' is 'export'."
+  },
+  {
+    "question": "Name the three branches of the U.S. government.",
+    "answer": "The three branches are the legislative, executive, and judicial branches."
+  },
+  {
+    "question": "What is the atomic number of oxygen?",
+    "answer": "The atomic number of oxygen is 8."
+  },
+  {
+    "question": "Calculate the perimeter of a square with side length 5.",
+    "answer": "The perimeter is 20 units."
+  },
+  {
+    "question": "Define inertia.",
+    "answer": "Inertia is the resistance of any physical object to any change in its velocity."
+  },
+  {
+    "question": "What is the comparative form of 'good'?",
+    "answer": "The comparative form of 'good' is 'better'."
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "answer": "Harper Lee wrote 'To Kill a Mockingbird'."
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "answer": "The Nile River is traditionally considered the longest river in the world."
+  },
+  {
+    "question": "Explain the concept of supply and demand.",
+    "answer": "Supply and demand is an economic model that determines price in a market based on the availability of goods (supply) and consumer desire for those goods (demand)."
+  },
+  {
+    "question": "Solve the equation: x^2 + 5x + 6 = 0",
+    "answer": "The solutions are x = -2 and x = -3."
+  },
+  {
+    "question": "What is the main function of the mitochondria?",
+    "answer": "Mitochondria are the powerhouse of the cell, producing ATP through cellular respiration."
+  },
+  {
+    "question": "Define 'democracy'.",
+    "answer": "Democracy is a system of government where power is vested in the people, who rule either directly or through elected representatives."
+  },
+  {
+    "question": "What is the meaning of 'ambiguous'?",
+    "answer": "Ambiguous means open to more than one interpretation; unclear or uncertain."
+  },
+  {
+    "question": "When was the Declaration of Independence signed?",
+    "answer": "The Declaration of Independence was signed on July 4, 1776."
+  },
+  {
+    "question": "What is the value of π to two decimal places?",
+    "answer": "π is approximately 3.14."
+  },
+  {
+    "question": "Name the planets in our solar system.",
+    "answer": "The planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."
+  },
+  {
+    "question": "What is the superlative form of 'far'?",
+    "answer": "The superlative form of 'far' is 'farthest' or 'furthest'."
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "answer": "Marie Curie was the first woman to win a Nobel Prize."
+  },
+  {
+    "question": "What is the formula for the volume of a sphere?",
+    "answer": "The volume of a sphere is (4/3)πr³."
+  },
+  {
+    "question": "Explain the theory of relativity.",
+    "answer": "Einstein's theory of relativity describes how measurements of space and time are relative to the observer's state of motion."
+  },
+  {
+    "question": "What is a homophone for 'sea'?",
+    "answer": "A homophone for 'sea' is 'see'."
+  },
+  {
+    "question": "Name the five senses.",
+    "answer": "The five senses are sight, hearing, smell, taste, and touch."
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "answer": "The capital of Japan is Tokyo."
+  },
+  {
+    "question": "Calculate 7! (7 factorial)",
+    "answer": "7! = 5040."
+  },
+  {
+    "question": "Define 'metaphor'.",
+    "answer": "A metaphor is a figure of speech that directly compares two unrelated things by stating one is the other."
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "answer": "The chemical formula for water is H₂O."
+  },
+  {
+    "question": "Who was Shakespeare?",
+    "answer": "William Shakespeare was an English playwright and poet, widely regarded as the greatest writer in the English language."
+  },
+  {
+    "question": "What is the square of 12?",
+    "answer": "The square of 12 is 144."
+  },
+  {
+    "question": "Explain the process of mitosis.",
+    "answer": "Mitosis is the process of cell division that results in two genetically identical daughter cells from a single parent cell."
+  },
+  {
+    "question": "What is the meaning of 'verbose'?",
+    "answer": "Verbose means using or containing more words than needed; wordy."
+  },
+  {
+    "question": "When was the United Nations founded?",
+    "answer": "The United Nations was founded in 1945."
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "answer": "The Pacific Ocean is the largest ocean on Earth."
+  },
+  {
+    "question": "Solve for y: 4y - 8 = 12",
+    "answer": "The solution is y = 5."
+  },
+  {
+    "question": "Define 'ecosystem'.",
+    "answer": "An ecosystem is a biological community of interacting organisms and their physical environment."
+  },
+  {
+    "question": "What is the plural of 'mouse' (animal)?",
+    "answer": "The plural of 'mouse' is 'mice'."
+  },
+  {
+    "question": "Who invented the telephone?",
+    "answer": "Alexander Graham Bell is credited with inventing the telephone."
+  },
+  {
+    "question": "What is 3/4 as a percentage?",
+    "answer": "3/4 is 75%."
+  },
+  {
+    "question": "Name the layers of the Earth's atmosphere.",
+    "answer": "The layers are troposphere, stratosphere, mesosphere, thermosphere, and exosphere."
+  },
+  {
+    "question": "What is the opposite of 'increase'?",
+    "answer": "The opposite of 'increase' is 'decrease'."
+  },
+  {
+    "question": "Who was Cleopatra?",
+    "answer": "Cleopatra was the last active ruler of the Ptolemaic Kingdom of Egypt."
+  },
+  {
+    "question": "What is the formula for speed?",
+    "answer": "Speed is calculated as distance divided by time (s = d/t)."
+  },
+  {
+    "question": "Simplify (2x + 3)(x - 4)",
+    "answer": "The simplified form is 2x² - 5x - 12."
+  },
+  {
+    "question": "Define 'irony'.",
+    "answer": "Irony is a literary device where there's a contrast between expectation and reality."
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "answer": "The capital of Canada is Ottawa."
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer": "The boiling point of water is 100°C at standard pressure."
+  },
+  {
+    "question": "Who composed the 'Moonlight Sonata'?",
+    "answer": "Ludwig van Beethoven composed the 'Moonlight Sonata'."
+  },
+  {
+    "question": "What is the largest mammal?",
+    "answer": "The blue whale is the largest mammal."
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "answer": "A hexagon has six sides."
+  },
+  {
+    "question": "What is the main component of the Sun?",
+    "answer": "The Sun is primarily composed of hydrogen (about 70%) and helium (about 28%)."
+  },
+  {
+    "question": "Define 'photosynthesis' in simple terms.",
+    "answer": "Photosynthesis is how plants make their own food using sunlight."
+  },
+  {
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "answer": "Water freezes at 32°F."
+  },
+  {
+    "question": "Who wrote 'The Great Gatsby'?",
+    "answer": "F. Scott Fitzgerald wrote 'The Great Gatsby'."
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "answer": "The smallest prime number is 2."
+  },
+  {
+    "question": "Name the three states of matter.",
+    "answer": "The three states of matter are solid, liquid, and gas."
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answer": "The currency of Japan is the yen."
+  },
+  {
+    "question": "How many continents are there?",
+    "answer": "There are seven continents."
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "answer": "The chemical symbol for sodium is Na."
+  },
+  {
+    "question": "Who painted 'The Starry Night'?",
+    "answer": "Vincent van Gogh painted 'The Starry Night'."
+  },
+  {
+    "question": "What is the formula for calculating force?",
+    "answer": "Force equals mass times acceleration (F = ma)."
+  },
+  {
+    "question": "Define 'photosynthesis' in scientific terms.",
+    "answer": "Photosynthesis is the biochemical process in which plants convert light energy, carbon dioxide, and water into glucose and oxygen."
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "answer": "The Antarctic Desert is the largest desert in the world."
+  },
+  {
+    "question": "Who was the first person to walk on the moon?",
+    "answer": "Neil Armstrong was the first person to walk on the moon."
+  },
+  {
+    "question": "What is the speed of light?",
+    "answer": "The speed of light in a vacuum is approximately 299,792 kilometers per second."
+  },
+  {
+    "question": "Name the four seasons.",
+    "answer": "The four seasons are spring, summer, autumn (fall), and winter."
+  },
+  {
+    "question": "What is the chemical formula for table salt?",
+    "answer": "The chemical formula for table salt is NaCl."
+  },
+  {
+    "question": "Who discovered gravity?",
+    "answer": "Sir Isaac Newton formulated the law of universal gravitation."
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "answer": "Diamond is the hardest natural substance on Earth."
+  },
+  {
+    "question": "How many bones are in the human body?",
+    "answer": "An adult human has 206 bones."
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "answer": "The capital of Australia is Canberra."
+  },
+  {
+    "question": "Define 'photosynthesis' for elementary students.",
+    "answer": "Photosynthesis is how plants use sunlight to make food from air and water."
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "The skin is the largest organ in the human body."
+  },
+  {
+    "question": "Who wrote 'Hamlet'?",
+    "answer": "William Shakespeare wrote 'Hamlet'."
+  },
+  {
+    "question": "What is the formula for the area of a triangle?",
+    "answer": "The area of a triangle is (base × height)/2."
+  },
+  {
+    "question": "Name the five Great Lakes.",
+    "answer": "The five Great Lakes are Superior, Michigan, Huron, Erie, and Ontario."
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answer": "The chemical symbol for iron is Fe."
+  },
+  {
+    "question": "Who was Albert Einstein?",
+    "answer": "Albert Einstein was a theoretical physicist who developed the theory of relativity."
+  },
+  {
+    "question": "What is the capital of Brazil?",
+    "answer": "The capital of Brazil is Brasília."
+  },
+  {
+    "question": "How many colors are in a rainbow?",
+    "answer": "There are seven colors in a rainbow."
+  },
+  {
+    "question": "What is the main gas found in Earth's atmosphere?",
+    "answer": "Nitrogen is the main gas in Earth's atmosphere (about 78%)."
+  },
+  {
+    "question": "Who was the first female prime minister of the UK?",
+    "answer": "Margaret Thatcher was the first female prime minister of the UK."
+  },
+  {
+    "question": "What is the formula for calculating work?",
+    "answer": "Work equals force times distance (W = F × d)."
+  },
+  {
+    "question": "Name the three primary colors.",
+    "answer": "The three primary colors are red, blue, and yellow."
+  },
+  {
+    "question": "What is the chemical symbol for silver?",
+    "answer": "The chemical symbol for silver is Ag."
+  },
+  {
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "answer": "Jane Austen wrote 'Pride and Prejudice'."
+  },
+  {
+    "question": "What is the capital of China?",
+    "answer": "The capital of China is Beijing."
+  },
+  {
+    "question": "How many days are in a leap year?",
+    "answer": "There are 366 days in a leap year."
+  },
+  {
+    "question": "What is the chemical formula for carbon dioxide?",
+    "answer": "The chemical formula for carbon dioxide is CO₂."
+  },
+  {
+    "question": "Who was the first emperor of Rome?",
+    "answer": "Augustus was the first emperor of Rome."
+  },
+  {
+    "question": "What is the largest land animal?",
+    "answer": "The African elephant is the largest land animal."
+  },
+  {
+    "question": "How many sides does a pentagon have?",
+    "answer": "A pentagon has five sides."
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "answer": "The chemical symbol for potassium is K."
+  },
+  {
+    "question": "Who painted 'The Last Supper'?",
+    "answer": "Leonardo da Vinci painted 'The Last Supper'."
+  },
+  {
+    "question": "What is the capital of Russia?",
+    "answer": "The capital of Russia is Moscow."
+  },
+  {
+    "question": "How many chromosomes do humans have?",
+    "answer": "Humans have 46 chromosomes (23 pairs)."
+  },
+  {
+    "question": "What is the chemical formula for methane?",
+    "answer": "The chemical formula for methane is CH₄."
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "answer": "George Orwell wrote '1984'."
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "answer": "The capital of Spain is Madrid."
+  },
+  {
+    "question": "How many teaspoons are in a tablespoon?",
+    "answer": "There are 3 teaspoons in a tablespoon."
+  },
+  {
+    "question": "What is the chemical symbol for lead?",
+    "answer": "The chemical symbol for lead is Pb."
+  },
+  {
+    "question": "Who composed 'The Four Seasons'?",
+    "answer": "Antonio Vivaldi composed 'The Four Seasons'."
+  },
+  {
+    "question": "What is the capital of Italy?",
+    "answer": "The capital of Italy is Rome."
+  },
+  {
+    "question": "How many feet are in a mile?",
+    "answer": "There are 5,280 feet in a mile."
+  },
+  {
+    "question": "What is the chemical symbol for mercury?",
+    "answer": "The chemical symbol for mercury is Hg."
+  },
+  {
+    "question": "Who wrote 'The Catcher in the Rye'?",
+    "answer": "J.D. Salinger wrote 'The Catcher in the Rye'."
+  },
+  {
+    "question": "What is the capital of Germany?",
+    "answer": "The capital of Germany is Berlin."
+  },
+  {
+    "question": "How many seconds are in a minute?",
+    "answer": "There are 60 seconds in a minute."
+  },
+  {
+    "question": "What is the chemical symbol for tin?",
+    "answer": "The chemical symbol for tin is Sn."
+  },
+  {
+    "question": "Who painted 'Guernica'?",
+    "answer": "Pablo Picasso painted 'Guernica'."
+  },
+  {
+    "question": "What is the capital of Argentina?",
+    "answer": "The capital of Argentina is Buenos Aires."
+  },
+  {
+    "question": "How many inches are in a foot?",
+    "answer": "There are 12 inches in a foot."
+  },
+  {
+    "question": "What is the chemical symbol for copper?",
+    "answer": "The chemical symbol for copper is Cu."
+  },
+  {
+    "question": "Who wrote 'Moby Dick'?",
+    "answer": "Herman Melville wrote 'Moby Dick'."
+  },
+  {
+    "question": "What is the capital of Egypt?",
+    "answer": "The capital of Egypt is Cairo."
+  },
+  {
+    "question": "How many ounces are in a pound?",
+    "answer": "There are 16 ounces in a pound."
+  }
+]
