@@ -1,0 +1,16 @@
+{
+  "name": "Offline Learning Micro Library",
+  "short_name": "MicroLibrary",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "description": "A simple offline-first library app for learning resources.",
+  "icons": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
