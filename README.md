@@ -1,46 +1,69 @@
-# Offline Learning Micro Library
+# Offline Learning Micro Library 📚
 
-## Overview
-The **Offline Learning Micro Library** is a Progressive Web App (PWA) designed to help K-12 students access educational content **offline**. After the first load, students can use interactive flashcards and multiple-choice quizzes in **Math, Science, and Vocabulary**—even without an internet connection. The app focuses on providing a **fun, engaging, and accessible learning experience** for under-resourced communities.
+A lightweight, offline-first micro library platform built with React, Vite, and TailwindCSS.  
+Created as part of a hackathon submission.
 
-## Features
-- **Home Page:** Browse subject categories (Math, Science, Vocabulary).  
-- **Flashcards:** Tap to flip between question and answer with smooth animations.  
-- **Quiz Mode:** Multiple-choice quizzes with 5–10 questions per session.  
-- **Offline Support:** Works offline after the first visit, thanks to PWA caching.  
-- **Responsive Design:** Works on desktop and mobile devices.  
-- **Interactive Animations:** Lively Tailwind animations for an engaging experience.  
+---
 
-## Built With
-JavaScript  
-HTML  
-CSS  
-React  
-Tailwind CSS  
-Vite  
-GitHub Pages  
-VS Code  
+## 🚀 About the Project
 
-## How We Built It
-- **Frontend:** React components for Home, Flashcards, and Quiz pages.  
-- **Styling:** Tailwind CSS for responsive and animated UI.  
-- **Offline Capability:** Service worker caching to ensure content is available offline.  
-- **Data:** Questions and flashcards stored in JSON files for easy expansion.  
+### ✨ Inspiration
+This project was inspired by the idea of making learning accessible even without internet access. I wanted to create a simple tool where people could browse learning resources offline, ensuring knowledge is always within reach.
 
-## Challenges
-- Ensuring the flashcard flip animation worked correctly and preventing skipping.  
-- Configuring Tailwind and PWA support with Vite.  
-- Debugging offline caching across different devices.  
+### 🛠️ How I Built It
+- **React** with **Vite** as the core framework for fast development and optimized builds.  
+- **React Router** for navigating between different pages.  
+- **TailwindCSS** for a clean, responsive UI.  
+- Experimented with **Service Workers** to enable offline access.  
 
-## Future Improvements
-- Expand with more subjects and topics.  
-- Add adaptive quizzes that adjust difficulty based on student performance.  
-- Include gamification elements like badges and streaks.  
-- Add audio or video content to enhance learning.  
-- Develop a teacher/parent dashboard for tracking progress.  
+### 📚 What I Learned
+- Setting up a React project with Vite.  
+- How routing works with React Router.  
+- Debugging and fixing JSON/package issues in `package.json`.  
+- Deploying apps to GitHub Pages.  
+- First steps in offline-first development with Service Workers.  
 
-## How to Use
-1. Clone the repository:  
-   ```bash
-   git clone <repository-url>
+### ⚡ Challenges I Faced
+- Understanding how React + Vite work together.  
+- Struggling with routing and figuring out how pages connect.  
+- Debugging `package.json` errors.  
+- Implementing offline features with Service Workers (a big learning curve).  
+- Having to figure out most things independently without prior experience.  
 
+---
+
+## 🎥 Demo Video
+👉 https://youtu.be/WgD0QiuwoUg?si=3Zw6JXjcEB9rEfpi
+
+---
+
+## 🧑‍💻 Setup & Execution Instructions
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/Epirgun/Offline-Learning-Micro-Library.git
+cd Offline-Learning-Micro-Library
+```
+
+#### 2. Install Dependencies
+
+Make sure you have Node.js installed.
+Then run:
+```bash
+npm install
+```
+#### 3. Start the Development Server
+
+Run:
+```bash
+npm run dev
+```
+
+If it fails, use the debug tool to run:
+```bash
+npm run dev
+```
+or
+```bash
+npx vite
+```
